@@ -1,0 +1,100 @@
+.loginTitulo {
+    background-color: #4682B4;
+    margin: -25px 0 0 -8px;
+    width: 1366px;
+    height: 50px;
+}
+
+.loginTitulo h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 7px 0 0 0;
+    color: white;
+}
+
+.loginCorpo {
+    margin: 0 0 0 550px;
+    background-color: #B0C4DE;
+    height: 250px;
+    width: 250px;
+}
+
+.loginCorpo #tituloLogin {
+    padding: 20px 0 0 75px;
+    font-size: 25px;
+    color: #0619c0;
+}
+
+.loginCorpo #email {
+    margin: 0 0 0 35px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #cccccc; 
+    border:1px solid #000000;
+}
+
+.loginCorpo #password {
+    margin: 5px 0 0 35px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #cccccc; 
+    border:1px solid #000000;
+}
+
+.loginCorpo #confirmPassword {
+    margin: 5px 0 0 35px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #cccccc; 
+    border:1px solid #000000;
+}
+
+.loginCorpo #btnCadastrar {
+    color: white;
+    margin: 20px 0 0 35px;
+    height: 25px;
+    width: 176px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #0619c0;
+    -moz-box-shadow: 1px 1px 2px #0619c0;
+    -webkit-box-shadow: 1px 1px 2px #0619c0;
+    background: #0619c0; 
+    border:1px solid #000000;
+}
+
+.loginCorpo #btnCadastrar:hover {
+    background: #1c31f0;
+}
+
+.loginCorpo #btnVoltar {
+    color: white;
+    margin: 30px 0 0 160px;
+    height: 25px;
+    width: 50px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #0619c0;
+    -moz-box-shadow: 1px 1px 2px #0619c0;
+    -webkit-box-shadow: 1px 1px 2px #0619c0;
+    background: #0619c0; 
+    border:1px solid #000000;
+}
+
+.loginCorpo #btnVoltar:hover {
+    background: #1c31f0;
+}

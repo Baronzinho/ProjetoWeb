@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Projeto de Web</title>
+		<link rel="stylesheet" type="text/css" href="/CSS/anonimo.css">
+		<script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-auth.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-database.js"></script> 
+		<script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-storage.js"></script> 
+		<script src="/JS/script.js" type="text/javascript"></script>
+		<script src="/JS/env.js" type="text/javascript"></script>
+	</head>
+	<body bgcolor="#E6E6FA" onload="listarAnonimo();">
+		<div>
+			<nav>
+				<ul style="margin: -8px -8px 0 -10px;">
+					<li><a href="/index.html" style="font-family: Verdana;">Sair</a></li>
+				</ul>
+			</nav>
+
+			<div class="Titulo">
+				<h2>Listar Problema(s)</h2>
+			</div>
+
+			<div class="Corpo">
+				<h3>Problemas: </h3>
+				<select name="problemas" id="listaProblemas" class="listaProblemas">
+				</select>
+				<button type="submit" id="btnEnviar" onclick="listarProblemaAnonimo();">Listar</button><br><br>
+				<h3>Status: </h3><input type="text" id="Status" disabled><br>
+				<h3>Local: </h3><input type="text" id="Local" disabled><br>
+				<h3>Descrição: </h3><textarea type="text" id="Descricao" disabled></textarea><br><br>
+				<h3>Imagem: </h3>
+				<img id="imgVisualizar">
+			</div>
+		</div>
+	</body>
+</html>

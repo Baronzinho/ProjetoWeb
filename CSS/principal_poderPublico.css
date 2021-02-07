@@ -1,0 +1,29 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #4682B4;
+}
+
+li {
+	margin: 0 0 0 550px;
+}
+
+li a {
+	display: block;
+	color: white;
+	padding: 16px;
+	text-decoration: none;
+  	float: left;
+  	text-align: center;
+  	margin-left: 5px;
+}
+
+li a:hover {
+	background-color: #09487c;
+}
+
+.Titulo {
+	text-align: center;
+}

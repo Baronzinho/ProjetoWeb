@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Projeto de Web</title>
+		<meta charset="utf-8"/>
+		<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
+		<script type="text/javascript" src="/JS/env.js"></script>
+		<script type="text/javascript" src="/JS/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="/CSS/index.css">
+	</head>
+	<body bgcolor="#E6E6FA">
+		<div class="login">
+			<div class="loginTitulo">
+				<h2>SAC - Reclamações</h2>
+			</div>
+
+			<div class="loginCorpo">
+				<section id="criacaoUsuario">
+					<h3 id="tituloLogin">Login</h3>
+					<form>
+						<input type="email" id="emailLogin" placeholder="Email"><br>
+						<input type="password" id="passwordLogin" placeholder="Senha"><br>
+						<input type="submit" id="btnLogar" onclick="authenticateUser(event);" value="Logar"><br>
+						<input type="button" id="btnCadastrar" onclick="javascript:location.href='cadastro.html'" value="Cadastrar">
+						<input type="submit" id="btnResetar" onclick="resetUser(event);" value="Resetar senha"><br>
+						<input type="button" id="btnAnonimo" onclick="javascript:location.href='anonimo.html'" value="Listar Problemas">
+						<p id="messageLogin"></p>
+					</form>
+				</section>
+			</div>
+		</div>
+	</body>
+	<footer class="rodape"><br>© 2021 Desenvolvido por:
+		<a href="https://www.linkedin.com/in/gabriel-henrique-baron-52166216a/" target="_blank">Gabriel Baron</a>
+	</footer>
+</html>

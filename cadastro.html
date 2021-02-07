@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Atividade Web - Autenticação</title>
+		<meta charset="utf-8"/>
+		<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
+		<script type="text/javascript" src="/JS/env.js"></script>
+		<script type="text/javascript" src="/JS/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="CSS/cadastro.css">
+	</head>
+	<body bgcolor="#E6E6FA">
+		<div class="autenticacao">
+			<div class="loginTitulo">
+				<h2>SAC - Reclamações</h2>
+			</div>
+			
+			<p id="message"></p>
+
+			<div class="loginCorpo">
+				<section id="criacaoUsuario">
+					<h3 id="tituloLogin">Cadastro</h3>
+					<form>
+						<input type="email" id="email" placeholder="Email">
+						<input type="password" id="password" placeholder="Senha">
+						<input type="password" id="confirmPassword" placeholder="Confirmar Senha">
+						<input type="button" id="btnCadastrar" onclick="createUser(event);" value="Cadastrar">
+						<input type="button" id="btnVoltar" onclick="javascript:location.href='index.html'" value="Voltar">
+						<p id="messageLogin"></p>
+					</form>
+				</section>
+			</div>
+		</div>
+	</body>
+	<!--
+	<footer class="rodape"><br>© 2020 Desenvolvido por:
+		<a href="https://www.linkedin.com/in/gabriel-henrique-baron-52166216a/" target="_blank">Gabriel Baron</a>
+	</footer>
+	-->
+</html>
